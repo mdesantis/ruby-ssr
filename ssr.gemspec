@@ -4,16 +4,16 @@ require_relative "lib/ssr/version"
 
 Gem::Specification.new do |spec|
   spec.name = "ssr"
-  spec.version = Ssr::VERSION
+  spec.version = SSR::VERSION
   spec.authors = ["Maurizio De Santis"]
   spec.email = ["desantis.maurizio@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "A placeholder gem reserving the SSR namespace."
+  spec.description = "This gem exists solely to reserve the `SSR` module namespace on RubyGems.org, preventing others from publishing a potentially bloated or malicious gem under this name."
   spec.homepage = "https://github.com/mdesantis/ssr"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/mdesantis/ssr"
   spec.metadata["changelog_uri"] = "https://github.com/mdesantis/ssr/blob/main/CHANGELOG.md"
