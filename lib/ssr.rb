@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require_relative "ssr/version"
-
 module SSR
-  class Error < StandardError; end
+  VERSION = "1.0.0"
 end
