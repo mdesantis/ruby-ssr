@@ -2,7 +2,7 @@
 
 A placeholder gem reserving the `SSR` (Server-Side Rendering) namespace on RubyGems.org.
 
-This gem exists solely to prevent others from publishing a potentially bloated or malicious gem under the `ssr` name. It provides no runtime functionality.
+This gem exists solely to prevent others from publishing a potentially misleading or malicious gem under the `ssr` name. It provides no runtime functionality.
 
 ## Installation
 

@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["desantis.maurizio@gmail.com"]
 
   spec.summary = "A placeholder gem reserving the SSR namespace."
-  spec.description = "This gem exists solely to reserve the `SSR` module namespace on RubyGems.org, preventing others from publishing a potentially bloated or malicious gem under this name."
+  spec.description = "This gem exists solely to reserve the `SSR` module namespace on RubyGems.org, preventing others from publishing a potentially misleading or malicious gem under this name."
   spec.homepage = "https://github.com/mdesantis/ssr"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.3.0"
