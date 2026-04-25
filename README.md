@@ -2,15 +2,23 @@
 
 A placeholder gem reserving the `SSR` (Server-Side Rendering) namespace on RubyGems.org.
 
+This gem exists solely to prevent others from publishing a potentially bloated or malicious gem under the `ssr` name. It provides no runtime functionality.
+
 ## Installation
 
-Install the gem and add to your application's Gemfile by executing:
+Add this line to your application's Gemfile:
 
-```bash
-bundle add ssr
+```ruby
+gem "ssr"
 ```
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+And then execute:
+
+```bash
+bundle install
+```
+
+Or install it yourself as:
 
 ```bash
 gem install ssr
@@ -22,11 +30,13 @@ gem install ssr
 require "ssr"
 ```
 
+This will load the `SSR` module into your application's namespace, ready to be extended with actual Server-Side Rendering functionality in the future.
+
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`.
 
 ## Contributing
 
