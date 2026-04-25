@@ -2,7 +2,6 @@
 
 require_relative "ssr/version"
 
-module Ssr
+module SSR
   class Error < StandardError; end
-  # Your code goes here...
 end

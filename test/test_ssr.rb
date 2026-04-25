@@ -2,9 +2,9 @@
 
 require "test_helper"
 
-class TestSsr < Minitest::Test
+class TestSSR < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Ssr::VERSION
+    refute_nil ::SSR::VERSION
   end
 
   def test_it_does_something_useful
